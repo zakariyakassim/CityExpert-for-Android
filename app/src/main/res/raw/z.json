@@ -1,0 +1,192 @@
+{
+  "html_attributions" : [],
+  "results" : [
+    {
+      "geometry" : {
+        "location" : {
+          "lat" : 51.499452,
+          "lng" : -0.132925
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+      "id" : "1ff64c7f59b19ea8017ecf302df7f9dc9e1074aa",
+      "name" : "Conrad London St. James",
+      "photos" : [
+        {
+          "height" : 3744,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/104423145682503057243/photos\"\u003eConrad London St. James\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRdAAAAz0euhVcB64vQiPOdipYF3MY_GVVyVsSzbFzs8VGSgHxraFmrSd4LgggUU7EYyHGZqmWGnv7gAkNXpzPBXk6ghguGfzblyxbfITxcn6mbC29w-35iDtZIcOmudJG_nnzcEhCLRLUbezplvPTkzM5M9plaGhRWYC_PQa_rcl_XSvYbRmGLr_-JSw",
+          "width" : 5616
+        }
+      ],
+      "place_id" : "ChIJvXfei9sEdkgRcVqTBHgAWVU",
+      "rating" : 4.4,
+      "reference" : "CnRqAAAAbGbsT5ZzXO_n-Qsp7zxqvKv1ba1dpGPSeMAeUX1yJvltTegwKomwumF-1PuUetSXQO3faIZRnVSPkyyHBenOOPRWF_ejKBd8OVDmxh619Iexrsek8t3gKUkHXShTTz_qqg4or62CG0jMUQEWl9qpVhIQOh5Pz6UDKZS4xwaCu8b8phoUQohc9kD6Iwkxs-f7lRho3MwhNRw",
+      "scope" : "GOOGLE",
+      "types" : [
+        "gym",
+        "night_club",
+        "bar",
+        "health",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity" : "22-28 Broadway, London"
+    },
+    {
+      "geometry" : {
+        "location" : {
+          "lat" : 51.5018578,
+          "lng" : -0.1256825
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "976d8a2ae91e0ef52254d5c93488ae43a90b7d1b",
+      "name" : "Jubilee Hall Clubs",
+      "place_id" : "ChIJVem-tMUEdkgRIxRJJG0N9Q0",
+      "reference" : "CnRlAAAA0YrwvhuCLHru8_wlA-tnitUyhQZk5UKYFd5uT2riZp8ZieLLcRMY1184dQMrsw9E-skNbWR-HpmNvChJI1YpPAX_5eCt362-q2NWZ9UY3CC39TvvN4We49ePRvHQ9-NsLjYaMT-g7uVgArPwdk9xGRIQhZPw3akUS6M240qVZ0EiABoUFlJQGtXyEmHhJaQqSwwi5OrnwC4",
+      "scope" : "GOOGLE",
+      "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+      "vicinity" : "1 Derby Gate, Westminster, London"
+    },
+    {
+      "geometry" : {
+        "location" : {
+          "lat" : 51.506345,
+          "lng" : -0.125226
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "00b12660f1cbd2cb4e5671e7d37a0d7e9a34d389",
+      "name" : "ESPA Life at Corinthia",
+      "opening_hours" : {
+        "open_now" : true,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 1537,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/114050664355803855998/photos\"\u003eESPA Life at Corinthia\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRdAAAAZcU2vBIe7f1w5Ws7jsZkGadJNgOqjHPl3yATQmz5OBxHyKj2IhjmqECnXuwj9fP9B3hyDXjWfzT9cxiwPQRdtWrUyUgvblRJb-wdvzDfjfcZcT69F-PLZVhcq_3Ta5E7EhCW2yc2u8AR6Tq0AgIV6w1UGhSpidjneFZb_bT-bi9XEGu7fP78AQ",
+          "width" : 2048
+        }
+      ],
+      "place_id" : "ChIJlRzXPM8EdkgRIMYW8SGbPH0",
+      "reference" : "CnRpAAAA_-v4lxJgLo-M-vNhVA-51le0AUAHmKuk13QAPAURiWpHGcUtHAr-5hD2p-w6zDDXt5HyT83cCzOeW24jFwNSGtZhlE3KREivbEd2xj-7h5lDMUvuKTOYCxf1o4tHELtzqX2ZwR0eHOTd6LGQ8Dfu9BIQEnXYwRwkloGfcmMDGFRErRoUVRRaXywjEqYdUyJtpazXJrTQpoE",
+      "scope" : "GOOGLE",
+      "types" : [
+        "beauty_salon",
+        "gym",
+        "health",
+        "spa",
+        "hair_care",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity" : "Whitehall Place, London"
+    },
+    {
+      "geometry" : {
+        "location" : {
+          "lat" : 51.4999108,
+          "lng" : -0.1334519
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "62b3f9a6c050df1de3b060a4140fb8cdb3340b36",
+      "name" : "Posture Dynamics - Osteopath London, Victoria clinic",
+      "opening_hours" : {
+        "open_now" : true,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 103,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/103636420976219417594/photos\"\u003ePosture Dynamics - Osteopath London, Victoria clinic\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRbAAAAMEUGqHX9oymfdEYWsdwIIzmWjZz38ispH779h4D2sxdhVsz3eJcqWu2uWaJz2TnMl8l2tMRQh6yuaHKSOMwnn_EXBJTTlrcQoRzUiwjX8REZ-r7anyNyMVEFOd7wSU1pEhDDsPxRo88BSxokTuBLgX2tGhRqOGKpI_aQ1xaL22TgUAjZgVe7hg",
+          "width" : 120
+        }
+      ],
+      "place_id" : "ChIJD_A-z94EdkgRdnWKyTpCBGY",
+      "reference" : "CpQBiAAAAAqk0VlIEz8KHp8Vcxb2NetJD0xjLN7ybL7ZZjo2FobTs8oFb5pzHQ29IeRlTxQhKF7RigE8N3YYayXFJsbJI9xcwzLSdHez1ecViKfgYSq2uYnLokqtCkX9hGm1I8-lTUSUabnBRqhzPWeuXDeTxmf-GDBhqIleiZV5RGhNHJUCtgnt4XHIx6o-1EJxm1ShxxIQnR_UUvvhSfWFxRZOwhzXIBoURB84WTH71mOQ1isToJEVpHocmZQ",
+      "scope" : "GOOGLE",
+      "types" : [ "doctor", "gym", "health", "point_of_interest", "establishment" ],
+      "vicinity" : "50 Broadway, London"
+    },
+    {
+      "geometry" : {
+        "location" : {
+          "lat" : 51.4996233,
+          "lng" : -0.1325253
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+      "id" : "c4eaf6da6533f35d12cdd7137aa902a804dc1b28",
+      "name" : "Yoga London",
+      "place_id" : "ChIJn02Ng9sEdkgRvJK6nrJn0YE",
+      "reference" : "CmRfAAAASKujRhQv6RY845xZGG-A7ADPRu-78c35AXgiT8i_dTn7BPyKdafMgULIov-omk5lkGLQhCdISctwjU1dg7P4xEs9-c5T5uupteuBCT17gFkosG47TksEqLFdKFeJRS6BEhA__hMEqOQi5ya_DxBBR9QMGhQx0UcAQjc0a22qVOZGJFqqQ-fSpQ",
+      "scope" : "GOOGLE",
+      "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+      "vicinity" : "49 Tothill Street, London"
+    },
+    {
+      "geometry" : {
+        "location" : {
+          "lat" : 51.5074701,
+          "lng" : -0.131381
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+      "id" : "38f5d8b524854159ce5677cffb4d4e7bca1337cd",
+      "name" : "The Pilates Place at The RAC",
+      "opening_hours" : {
+        "open_now" : true,
+        "weekday_text" : []
+      },
+      "place_id" : "ChIJEan7NNcEdkgRJ8C1-FcUxp4",
+      "reference" : "CnRwAAAAj4lMA8qjTHaDg8-dID2EPKPGt9mgEb_h8DglWZCx9nNko9nnqtLDEKk0BX4j4AD9Q_PSf29M_Nl4BoTJiB57sdD-cjIS4sdCTQ4UWhUFK_YFX9G77yzgslY2StgsgazZVwmYA16dWvfdhBLqQ5uDnxIQSzZ7AZApZe5YhPR96Asa0hoUTZp9mV3v-EJiClVNEH8nhOPi4qE",
+      "scope" : "GOOGLE",
+      "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+      "vicinity" : "89 Pall Mall"
+    },
+    {
+      "geometry" : {
+        "location" : {
+          "lat" : 51.5071389,
+          "lng" : -0.1249479
+        }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "c84f347b57281ac9d94cddc092ed87a19bffe832",
+      "name" : "The Gym Charing Cross",
+      "opening_hours" : {
+        "open_now" : true,
+        "weekday_text" : []
+      },
+      "photos" : [
+        {
+          "height" : 534,
+          "html_attributions" : [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/103810702739760610794/photos\"\u003eThe Gym\u003c/a\u003e"
+          ],
+          "photo_reference" : "CmRdAAAAYAi2zJK39wuc6zLFOMkaElskZShIl4ZTqZRob_2pgTr_ZtJLDOOopgJQQm45I0wvoKIchyQQpIj5R6tLiGkhQ9XXVtDeK54Ny5fSwdSCvlVhaikvbADsR_A4FiN42IVzEhDRN3NvpkH4CgcpFGorj4OAGhQ04UPUYTzthkPYrCWeEQZ_oEwWcQ",
+          "width" : 800
+        }
+      ],
+      "place_id" : "ChIJLxCb4M4EdkgR4VCIAbuWVs0",
+      "reference" : "CnRpAAAA23BGHKjm-w1-W2DadYSryf8mZrL_080B3T1WjPG5sFZqlbZuqbdTi9KmqE30LMZRkD4Zo9jcWe2coVLcjQHN8glhcs_YaKkZufimixc7_CyvgRkxjqbVF8TJZlvN3_mbrfhdWA2xuFfDUgFg-JpVcRIQESX95Yf2nnypTP6XB8KmXBoUuVgTmTyp9Y-fdp-UOhoBzYCn2kA",
+      "scope" : "GOOGLE",
+      "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+      "vicinity" : "17-21 Northumberland Avenue, London"
+    }
+  ],
+  "status" : "OK"
+}
+

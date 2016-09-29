@@ -1,0 +1,110 @@
+<RelativeLayout
+    android:id="@+id/main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/lib/com.app.chasebank"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    xmlns:app1="http://schemas.android.com/apk/res-auto"
+    android:background="#ce193e">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_height="500px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:id="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/shadowbottom" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:id="@+id/button2"
+        android:background="@drawable/shadowtop"
+        android:layout_alignBottom="@+id/map"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/map"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="#eee"
+        android:id="@+id/mainContainer"></RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/lblMainTitle"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:layout_below="@+id/button2"
+        android:layout_toRightOf="@+id/btnBackToMainMenu"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center_vertical|center"
+        android:background="@drawable/buttonback"
+        android:layout_marginLeft="5dp"
+        android:layout_alignBottom="@+id/btnBackToMainMenu"
+        android:longClickable="false"
+        android:maxHeight="40dp" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnColor"
+            android:textColor="#fff"
+            android:background="@drawable/buttonback"
+            android:longClickable="false"
+            android:maxHeight="40dp"
+            android:paddingTop="10dp"
+            android:layout_below="@+id/button2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBackToMainMenu"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#fff"
+        android:background="@drawable/buttonback"
+        android:longClickable="false"
+        android:maxHeight="40dp"
+        android:paddingTop="10dp"
+        android:drawableTop="@drawable/homeicon" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

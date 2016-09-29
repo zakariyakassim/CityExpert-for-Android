@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#ce193e"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:id="@+id/linearLayout4"
+        android:weightSum="1"
+
+
+        android:layout_gravity="center_horizontal|top"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp">
+
+        <EditText
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:id="@+id/txtNum1"
+            android:background="#ffffff"
+            android:inputType="textWebPassword"
+            android:fontFamily="Calibri"
+            android:textSize="30dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="#5f5f5f"
+            android:maxLength="1"
+            android:gravity="center"
+            android:layout_alignTop="@+id/txtNum2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp" />
+
+        <EditText
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:id="@+id/txtNum2"
+            android:background="#ffffff"
+            android:inputType="textWebPassword"
+            android:fontFamily="Calibri"
+            android:textSize="30dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="#5f5f5f"
+            android:maxLength="1"
+            android:gravity="center"
+            android:layout_alignTop="@+id/txtNum3"
+            android:layout_toRightOf="@+id/txtNum1"
+            android:layout_toEndOf="@+id/txtNum1"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp" />
+
+        <EditText
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:id="@+id/txtNum3"
+            android:background="#ffffff"
+            android:inputType="textWebPassword"
+            android:fontFamily="Calibri"
+            android:textSize="30dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="#5f5f5f"
+            android:maxLength="1"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/txtNum2"
+            android:layout_toEndOf="@+id/txtNum2"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp" />
+
+        <EditText
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:id="@+id/txtNum4"
+            android:background="#ffffff"
+            android:inputType="textWebPassword"
+            android:fontFamily="Calibri"
+            android:textSize="30dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="#5f5f5f"
+            android:maxLength="1"
+            android:gravity="center"
+            android:layout_alignTop="@+id/txtNum3"
+            android:layout_toRightOf="@+id/txtNum3"
+            android:layout_toEndOf="@+id/txtNum3"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="ENTER PIN:"
+            android:id="@+id/textView9"
+            android:textColor="#ffffff"
+            android:layout_column="1"
+            android:layout_span="2"
+            android:layout_gravity="left|top"
+            android:layout_above="@+id/txtNum1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

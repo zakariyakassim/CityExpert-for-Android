@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/lblBusTop"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"
+            android:layout_toStartOf="@+id/imageView"
+            android:layout_toLeftOf="@+id/imageView" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView"
+            android:layout_alignTop="@+id/lblBusTop"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/buslistlogo"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="lblTowards"
+            android:id="@+id/lblTowards"
+            android:layout_below="@+id/imageView"
+            android:layout_toRightOf="@+id/textView"
+            android:layout_marginLeft="10dp"
+            android:textColor="#616161"
+            android:textSize="15dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignRight="@+id/lblDis"
+            android:layout_alignEnd="@+id/lblDis" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="towards"
+            android:id="@+id/textView"
+            android:layout_alignTop="@+id/lblTowards"
+            android:layout_alignLeft="@+id/lblBusTop"
+            android:layout_alignStart="@+id/lblBusTop"
+            android:textColor="#616161"
+            android:textSize="15dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/lblDis"
+            android:layout_alignBottom="@+id/lblTowards"
+            android:layout_alignRight="@+id/imageView"
+            android:layout_alignEnd="@+id/imageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0.00"
+            android:id="@+id/lblDistance"
+            android:textColor="#616161"
+            android:textSize="15dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginStart="21dp"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Miles"
+            android:id="@+id/textView2"
+            android:textColor="#616161"
+            android:textSize="15dp"
+            android:layout_below="@+id/lblDis"
+            android:layout_toRightOf="@+id/lblDistance"
+            android:layout_toEndOf="@+id/lblDistance"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp" />
+
+    </RelativeLayout>
+</LinearLayout>

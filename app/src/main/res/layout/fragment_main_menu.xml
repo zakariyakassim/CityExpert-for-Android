@@ -1,0 +1,89 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentMainMenu"
+    android:background="#ce193e">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_layout_relative">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/btnMainMenuBus"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:background="@drawable/bus_button_selector"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="top|fill" />
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/btnOyster"
+                    android:layout_below="@+id/btnMainMenuBus"
+                    android:layout_toRightOf="@+id/btnMainMenuBus"
+                    android:layout_toEndOf="@+id/btnMainMenuBus"
+                    android:background="@drawable/oyster_button_selector"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:gravity="top|fill" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/btnMainMenuPlaces"
+                    android:layout_below="@+id/btnMainMenuBus"
+                    android:layout_toRightOf="@+id/btnMainMenuBus"
+                    android:layout_toEndOf="@+id/btnMainMenuBus"
+                    android:background="@drawable/places_button_selector"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:gravity="top|fill" />
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/btnNotifyMe"
+                    android:layout_below="@+id/btnMainMenuBus"
+                    android:layout_toRightOf="@+id/btnMainMenuBus"
+                    android:layout_toEndOf="@+id/btnMainMenuBus"
+                    android:background="@drawable/notify_me_button_selector"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:gravity="top|fill" />
+            </TableRow>
+
+        </TableLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+
+
